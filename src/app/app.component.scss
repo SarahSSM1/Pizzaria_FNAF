@@ -1,0 +1,27 @@
+.bg-dark {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-dark-rgb),var(--bs-bg-opacity))!important;
+  background-color: #3d0549 !important;
+}
+
+div#navbarNavAltMarkup {
+  font-size: 23px;
+  margin: 6px 0px 6px 6px;
+}
+
+img.logo {
+  width: 160px;
+  height: 80px;
+  margin: -5px 10px 0px 0px;
+}
+
+#footer {
+  background: #464646;
+  color: #eee;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center!important;
+  margin-top: -35px;
+}
