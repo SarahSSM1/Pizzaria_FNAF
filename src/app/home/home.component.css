@@ -1,0 +1,75 @@
+#footer {
+  color: #fff;
+  text-align: center;
+  padding: 3rem;
+}
+
+img.col-lg-6 {
+  max-width: 600px;
+  height: 515px;
+}
+
+/* Reservas */
+.formularioReservas {
+  border: 3px solid yellowgreen;
+}
+
+.formularioReservas .row {
+  justify-content: center;
+  padding: 2%;
+}
+
+@media (max-width: 480px) {
+
+  .formularioReservas .row {
+      justify-content: center;
+      padding: 1%;
+  }
+  #pessoasSelect, #horaSelect,#dataInput,#reservaButton{
+      margin-top: 3px;
+  }
+}
+
+/* ------------- */
+
+#maps {
+  margin-bottom: 50px;
+}
+
+
+article.rows {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.containerBg {
+  position: relative;
+  top: 10px;
+  margin-left: 128px;
+}
+
+
+img.col-lg-12.set {
+  width: 185%!important;
+}
+
+
+h1.nome {
+  align-items: center;
+  line-height: 1.55em;
+  font-size: 4rem;
+  font-family:'comic sans', serif;
+  text-align: center;
+}
+
+
+h6.ds {
+  text-align: center;
+  margin: 62px;
+  margin-top: 8%;
+}
+
+img.col-lg-12.set {
+  margin: 0px -80px 0px 6px;
+  height:500px
+}
