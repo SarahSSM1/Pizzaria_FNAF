@@ -1,13 +1,44 @@
-#footer {
-  color: #fff;
-  text-align: center;
-  padding: 3rem;
+
+/* Banner */
+article.rows {
+  display: flex;
+  margin-bottom: 30px;
 }
 
-img.col-lg-6 {
-  max-width: 600px;
-  height: 515px;
+.containerBg {
+  position: relative;
+  top: 10px;
+  margin-left: 128px;
 }
+
+img.col-lg-12.set {
+  width: 185%!important;
+}
+
+h1.nome {
+  margin-top: 35px;
+  align-items: center;
+  line-height: 1.55em;
+  font-size: 4rem;
+  font-family:'comic sans', serif;
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+h6.ds {
+  text-align: center;
+  margin: 62px;
+  margin-top: 8%;
+}
+
+img.col-lg-12.set {
+  margin: 0px -80px 0px 6px;
+  height:500px
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Reservas */
 .formularioReservas {
@@ -29,47 +60,105 @@ img.col-lg-6 {
       margin-top: 3px;
   }
 }
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* ------------- */
-
+/* Mapa */
 #maps {
   margin-bottom: 50px;
 }
 
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-article.rows {
+/* Gallery */
+#gallery {
+  width: 90%;
+  margin: auto;
+  padding: 25px;
+  padding-bottom: 73px;
+}
+
+#gallery-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  justify-items: center;
+}
+
+.gallery-image{
+  display: inline-block;
+  width: 300px;
+  height: 273px;
+  border-radius: 5px;
+}
+
+#gallery[_ngcontent-ewf-c2] {
+width: 98%;
+margin: auto;
+padding: 50px;
+}
+
+.headline[_ngcontent-deq-c1] {
+font-size: 2.2rem;
+text-transform: uppercase;
+font-weight: bold;
+text-align: center;
+padding-bottom: 30px;
+letter-spacing: 2px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Product */
+#product {
+  width: 100%;
+  padding: 50px;
+}
+
+#product-container {
   display: flex;
-  margin-bottom: 30px;
-}
-
-.containerBg {
-  position: relative;
-  top: 10px;
-  margin-left: 128px;
-}
-
-
-img.col-lg-12.set {
-  width: 185%!important;
-}
-
-
-h1.nome {
+  justify-content: center;
   align-items: center;
-  line-height: 1.55em;
-  font-size: 4rem;
-  font-family:'comic sans', serif;
-  text-align: center;
 }
 
-
-h6.ds {
-  text-align: center;
-  margin: 62px;
-  margin-top: 8%;
+.items {
+  width: 650px;
 }
 
-img.col-lg-12.set {
-  margin: 0px -80px 0px 6px;
-  height:500px
+.items .item {
+  display: flex;
+  padding: 10px;
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+.items .item i {
+  margin-right: 5px;
+}
+
+#features {
+  width: 100%;
+  background: #222;
+  color: #eee;
+  padding: 50px;
+}
+
+#features-container {
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  background: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#features-container .title {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
