@@ -5,6 +5,10 @@ article.rows {
   margin-bottom: 30px;
 }
 
+#apresentacao {
+  margin-left: -75px;
+}
+
 .containerBg {
   position: relative;
   top: 10px;
@@ -38,6 +42,11 @@ img.col-lg-12.set {
   margin: 0px -80px 0px 6px;
   height:500px
 }
+
+.col-lg-6 {
+  flex: 0 0 auto;
+  width: 54%;
+}
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Reservas */
@@ -62,19 +71,27 @@ img.col-lg-12.set {
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
+/* Endereço */
+img.col-lg-6.visite-nosImg {
+  width: 510px;
+  height: 425px;
+  border-radius: 5px;
+}
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
 /* Mapa */
 #maps {
   margin-bottom: 50px;
 }
-
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Gallery */
 #gallery {
-  width: 90%;
-  margin: auto;
-  padding: 25px;
-  padding-bottom: 73px;
+  width: 1365px;
+  margin-left: 54px;
+  padding: 4px;
+  padding-bottom: 11px;
+   background-color: #85285a;
 }
 
 #gallery-container {
@@ -108,7 +125,7 @@ letter-spacing: 2px;
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Product */
-#product {
+/* #product {
   width: 100%;
   padding: 50px;
 }
@@ -161,4 +178,31 @@ letter-spacing: 2px;
   display: inline-block;
   font-size: 1.5rem;
   font-weight: bold;
+} */
+
+img.col-lg-6 {
+  width: 490px;
+  height: 380px;
+  border-radius: 30px;
 }
+
+.col-lg-7.cardComida {
+  margin: 35px 0px 0px 0px;
+}
+
+.col-lg-7.cardComida2 {
+  margin: -176px 0px 62px 485px;
+  flex: 0 0 auto;
+  width: 58.333333%;
+}
+
+#tabela {
+  font-size: 13px;
+}
+
+h4.titulo {
+  margin-top: -12px;
+  text-align: center;
+}
+
+
