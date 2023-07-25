@@ -30,6 +30,7 @@ h1.nome {
 
 h2{
   text-align: center;
+  margin-top: 10px;
 }
 
 h6.ds {
@@ -47,11 +48,31 @@ img.col-lg-12.set {
   flex: 0 0 auto;
   width: 54%;
 }
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* Sobre */
+
+h2.titulo.apresentacao {
+  color: aliceblue;
+}
+
+span.descricao.apresentacao {
+  color: aliceblue;
+  text-align: center;
+}
+
+#sobreButton{
+  text-align: center;
+}
+
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
 /* Reservas */
 .formularioReservas {
-  border: 3px solid yellowgreen;
+  border: 3px solid #ff01cd;
+  margin-bottom: 20px;
+  width: 1320px;
 }
 
 .formularioReservas .row {
@@ -85,13 +106,14 @@ img.col-lg-6.visite-nosImg {
 }
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 
-/* Gallery */
+/* Franquia */
 #gallery {
   width: 1365px;
   margin-left: 54px;
   padding: 4px;
   padding-bottom: 11px;
-   background-color: #85285a;
+  background-color: #85285a;
+  margin-bottom: 10px;
 }
 
 #gallery-container {
