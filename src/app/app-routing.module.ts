@@ -8,7 +8,7 @@ import { SobreComponent } from './sobre/sobre.component';
 
 const APP_ROUTES:Routes =[
   {path: '', component: HomeComponent},
-  {path: 'sobre', component: SobreComponent},
+  //{path: 'sobre', component: SobreComponent},
   //{path: 'cardapio', component: CardapioComponent},
 ];
 
